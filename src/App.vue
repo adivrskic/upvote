@@ -1,28 +1,41 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>{{ appName }}</h1>
+    <Posts />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Posts from './components/Posts.vue'
+
 
 export default {
   name: 'App',
+  data() {
+    return {
+      appName: 'Upvote!'
+    }
+  },
   components: {
-    HelloWorld
+    Posts
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: darkslategray;
+}
+
+h1 {
+  margin: 2.5rem auto;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: .08rem;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

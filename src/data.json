@@ -1,0 +1,30 @@
+[
+    { 
+        "title": "Tinfoiled: Tailored Tinfoil hats",
+        "content": "We have your measurements and shipping address",
+        "submitted_by": "Carole Baskin",
+        "votes": 14,
+        "hex": "background-color: #234E85"
+    },
+    {
+        "title": "Yellow pail",
+        "content": "on demand sand castle construction expertise",
+        "submitted_by": "John Jones",
+        "votes": 12,
+        "hex": "background-color: #6E7C74"
+    },
+    {
+        "title": "Supermajority: The fantasy congress league",
+        "content": "Earn points when your favorite politicians pass legislation",
+        "submitted_by": "Max Pain",
+        "votes": 9,
+        "hex": "background-color: #C7B763"
+    },
+    {
+        "title": "Haught or Naught",
+        "content": "High minded or absent minded? You decide",
+        "submitted_by": "Bob Smith",
+        "votes": 6,
+        "hex": "background-color: #CA6220"
+    }
+]
